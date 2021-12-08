@@ -7,3 +7,10 @@
 .btn{
     @apply bg-red-500 md:bg-blue-400 py-4  w-60 rounded-lg cursor-pointer lg:mx-4 hover:bg-red-200 duration-700
 }
+.nav-btn{
+    @apply  px-9 py-2 m-2 hover:bg-gray-300 duration-1000 rounded
+}
+/*.background{*/
+/*    background-image: url("../assets/img/img1.jpg");*/
+/*    backdrop-filter: brightness(50%);*/
+/*}*/

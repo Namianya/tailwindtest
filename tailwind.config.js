@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'hero-image': "url('/assets/img/img1.jpg')"
+      }
+    },
   },
   variants: {
     extend: {},

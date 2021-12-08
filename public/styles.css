@@ -17792,6 +17792,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-hero-image {
+  background-image: url('/assets/img/img1.jpg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -32279,6 +32283,32 @@ video {
     margin-right: 1rem;
   }
 }
+
+.nav-btn{
+  margin: 0.5rem;
+  border-radius: 0.25rem
+}
+
+.nav-btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity));
+}
+
+.nav-btn {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  transition-duration: 1000ms;
+}
+
+/*.background{*/
+
+/*    background-image: url("../assets/img/img1.jpg");*/
+
+/*    backdrop-filter: brightness(50%);*/
+
+/*}*/
 
 @media (min-width: 640px) {
   .sm\:container {
@@ -49403,6 +49433,10 @@ video {
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .sm\:bg-hero-image {
+    background-image: url('/assets/img/img1.jpg');
   }
 
   .sm\:from-transparent {
@@ -80633,6 +80667,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-hero-image {
+    background-image: url('/assets/img/img1.jpg');
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -111859,6 +111897,10 @@ video {
 
   .lg\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .lg\:bg-hero-image {
+    background-image: url('/assets/img/img1.jpg');
   }
 
   .lg\:from-transparent {
@@ -143089,6 +143131,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-hero-image {
+    background-image: url('/assets/img/img1.jpg');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -174315,6 +174361,10 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-hero-image {
+    background-image: url('/assets/img/img1.jpg');
   }
 
   .\32xl\:from-transparent {
